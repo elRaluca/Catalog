@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catalog</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="lista-elevi-wrapper">
+      <div class="catalog-elevi">
+        <h1>CATALOG DE NOTE</h1>
+        <label for="nume-elev"></label>
+        <input placeholder="Adaugati noul student" type="text" id="nume-elev" />
+        <button id="adauga-elev-btn">Adauga</button>
+        <table id="tabel-elevi">
+          <thead>
+            <th>Nume</th>
+            <th>Medie</th>
+            <th>Note Elev</th>
+            <th>Sterge Elev</th>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div id="note-elev-wrapper" class="hide">
+        <button id="ascunde-note">Ascunde notele</button>
+        <h1>Numele elevului</h1>
+        <div>
+          <label for="nota"></label>
+          <input placeholder="Adaugati nota" type="number" id="nota" />
+          <button id="adauga-nota-btn">Adauga</button>
+          <div>
+            <button id="desc-note">Ordoneaza Descendent</button>
+            <button id="asce-note">Ordoneaza Ascendent</button>
+          </div>
+          <table id="tabel-note">
+            <thead>
+              <th>Nota</th>
+              <th>X</th>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

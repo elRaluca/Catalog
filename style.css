@@ -1,0 +1,100 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(183, 179, 179);
+}
+.catalog-elevi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#nume-elev {
+  height: 30px;
+  border-radius: 5px;
+  padding: 3px;
+  margin-top: 10px;
+}
+
+#adauga-elev-btn {
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border-color: rgb(199, 199, 199);
+  background-color: rgb(199, 199, 199);
+}
+
+#tabel-elevi {
+  margin-top: 3rem;
+  border: 1px solid rgb(135, 25, 137);
+}
+
+th,
+td {
+  border: 1px solid rgb(135, 25, 137);
+  height: 30px;
+  width: 100px;
+  text-align: center;
+}
+
+.vezi-note,
+.sterge-elev {
+  height: 100%;
+  width: 100%;
+  border: 2px solid rgb(206, 204, 204);
+}
+
+.sterge-elev {
+  color: red;
+}
+
+.hide {
+  display: none;
+}
+
+#note-elev-wrapper {
+  text-align: center;
+}
+#ascunde-note {
+  height: 30px;
+  border-radius: 5px;
+  border-color: rgb(199, 199, 199);
+  background-color: rgb(199, 199, 199);
+  margin-top: 3rem;
+}
+
+#nota {
+  height: 30px;
+  border-radius: 5px;
+  border-color: rgb(199, 199, 199);
+}
+#adauga-nota-btn {
+  height: 30px;
+  border-radius: 5px;
+  border-color: rgb(199, 199, 199);
+  background-color: rgb(199, 199, 199);
+}
+
+#desc-note,
+#asce-note {
+  border-radius: 5px;
+  border-color: rgb(199, 199, 199);
+  background-color: rgb(199, 199, 199);
+  margin-top: 16px;
+  height: 30px;
+}
+
+#tabel-note {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(135, 25, 137);
+  background-color: white;
+}
+.sterge-nota {
+  height: 100%;
+  width: 100%;
+  border: 2px solid rgb(206, 204, 204);
+  background-color: white;
+  color: red;
+}
